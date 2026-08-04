@@ -1,0 +1,24 @@
+#include<iostream>
+using namespace std;
+
+int main()
+{
+    int n;
+    cout<<"Enter the value of n: ";
+    cin>>n;
+
+    char ch = 'A';
+    for(int i=0; i<n; i++)
+    {
+        for(int space=0; space<i; space++)
+        {
+            cout<< "  ";
+        }
+        for(int alpha=0; alpha<n-i; alpha++)
+        {
+            cout<< char(ch + i) << " ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
