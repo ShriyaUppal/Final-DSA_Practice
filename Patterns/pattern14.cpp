@@ -17,6 +17,9 @@ int main()
             cout<< count << " ";
             count++;
         }
+
+        for(int num=i-1; num>=1; num--)
+            cout<< num  << " ";
         cout<<endl;
     }
     return 0;
