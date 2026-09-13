@@ -1,15 +1,15 @@
 #include<iostream>
 #include<vector>
+
 using namespace std;
 
 int main()
 {
-    //Declaration and Initialization.
     vector<int> vec = {10, 20, 30, 40, 50};
 
-    for(int data:vec)
+    for(int itr:vec)
     {
-        cout<< data << " ";
+        cout<< itr <<" ";
     }
     return 0;
 }
