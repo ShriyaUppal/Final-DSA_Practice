@@ -1,0 +1,23 @@
+#include<iostream>
+#include<vector>
+
+using namespace std;
+
+int main()
+{
+    vector<int> nums = {1, 2, 3, 4, 5};
+
+    for(int start=0; start<nums.size(); start++)
+    {
+        for(int end=start; end<nums.size(); end++)
+        {
+            for(int i=start; i<end; i++)
+            {
+                cout<< nums[i];
+            }
+            cout<<" ";
+        }
+        cout<<endl;
+    }
+    return 0;
+}
